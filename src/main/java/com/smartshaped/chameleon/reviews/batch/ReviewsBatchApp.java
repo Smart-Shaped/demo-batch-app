@@ -1,4 +1,4 @@
-package com.smartshaped.chameleon.reviews;
+package com.smartshaped.chameleon.reviews.batch;
 
 import com.smartshaped.chameleon.batch.exception.BatchLayerException;
 import com.smartshaped.chameleon.batch.exception.BatchUpdaterException;
@@ -6,7 +6,6 @@ import com.smartshaped.chameleon.batch.exception.HdfsSaverException;
 import com.smartshaped.chameleon.common.exception.ConfigurationException;
 import com.smartshaped.chameleon.common.exception.KafkaConsumerException;
 import com.smartshaped.chameleon.preprocessing.exception.PreprocessorException;
-import com.smartshaped.chameleon.reviews.components.ReviewsBatchLayer;
 
 public class ReviewsBatchApp {
 

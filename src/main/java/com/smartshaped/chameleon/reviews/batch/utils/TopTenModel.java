@@ -1,4 +1,4 @@
-package com.smartshaped.chameleon.reviews.utils;
+package com.smartshaped.chameleon.reviews.batch.utils;
 
 import java.time.Instant;
 

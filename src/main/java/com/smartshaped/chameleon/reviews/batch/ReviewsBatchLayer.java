@@ -1,4 +1,4 @@
-package com.smartshaped.chameleon.reviews.components;
+package com.smartshaped.chameleon.reviews.batch;
 
 import com.smartshaped.chameleon.batch.BatchLayer;
 import com.smartshaped.chameleon.batch.exception.BatchLayerException;

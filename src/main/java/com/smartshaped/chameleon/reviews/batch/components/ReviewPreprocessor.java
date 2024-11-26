@@ -1,4 +1,4 @@
-package com.smartshaped.chameleon.reviews.utils;
+package com.smartshaped.chameleon.reviews.batch.components;
 
 import org.apache.spark.sql.Dataset;
 import org.apache.spark.sql.Row;

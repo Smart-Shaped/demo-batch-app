@@ -1,4 +1,4 @@
-package com.smartshaped.chameleon.reviews.components;
+package com.smartshaped.chameleon.reviews.batch.components;
 
 import java.time.Instant;
 
@@ -15,7 +15,6 @@ import com.smartshaped.chameleon.common.exception.CassandraException;
 import com.smartshaped.chameleon.common.exception.ConfigurationException;
 import com.smartshaped.chameleon.preprocessing.Preprocessor;
 import com.smartshaped.chameleon.preprocessing.exception.PreprocessorException;
-import com.smartshaped.chameleon.reviews.utils.ReviewPreprocessor;
 
 public class TopReviewsUpdater extends BatchUpdater {
 
