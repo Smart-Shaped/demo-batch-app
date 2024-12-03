@@ -28,3 +28,9 @@ replay_pid*
 .settings
 dependency-reduced-pom.xml
 target
+
+# python
+venv/
+# data
+
+Video_Games.jsonl
