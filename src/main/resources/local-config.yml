@@ -54,12 +54,12 @@ batch:
     topics:
       topic1:
         name: "topicReviews"
-        class: "com.smartshaped.chameleon.reviews.utils.ReviewPreprocessor"
+        class: "com.smartshaped.chameleon.reviews.batch.components.ReviewPreprocessor"
         path: "/user/spark/topicReviews/data.parquet"
         checkpoint: "/user/spark/checkpoint/topicReviews"
   updater:
     name: "TopReviewsUpdater"
-    class: "com.smartshaped.chameleon.reviews.components.TopReviewsUpdater"
+    class: "com.smartshaped.chameleon.reviews.batch.components.TopReviewsUpdater"
   cassandra:
     node: "cassandra1"
     port: 9042
@@ -68,4 +68,4 @@ batch:
     keyspace: 
       name: "fesr_test"
     model:
-      class: "com.smartshaped.chameleon.reviews.utils.TopTenModel"
+      class: "com.smartshaped.chameleon.reviews.batch.utils.TopTenModel"
