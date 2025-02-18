@@ -28,7 +28,9 @@ public class TopReviewsUpdater extends BatchUpdater {
 	}
 
 	@Override
-	public Dataset<Row> updateBatch(Dataset<Row> df, SparkSession sparkSession) throws BatchUpdaterException {
+	public Dataset<Row> updateBatch(Dataset<Row> df) throws BatchUpdaterException {
+		
+		SparkSession sparkSession = SparkSession.getActiveSession().get();
 		
 		try {
 			df = preprocessor.preprocess(df);
